@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teja_Nadella</title>
+    <!-- Corrected static file path -->
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <!-- First row -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border border-info" id="profile-wrapper" >
+                    <img id="profile-pic" src="{% static 'images/photo.jpg' %}">
+                    <hr>
+                    <h4 id="h4">Hi I'am Teja Nadella</h4>
+                    <p>Full-Stack Developer & Data Science | Python, Django, and Machine Learning Enthusiast | 🎓 Information Technology.</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border border-info ">
+                    <h4 id="intro">Introducing Myself</h4>
+                    <hr>
+                    <p>Hello! I'm Nadella Teja, a dedicated Information Technology student at Gudlavalleru Engineering College.</p>
+                    <p>With a strong passion for learning and exploring new technologies, I am currently focusing on data science and full-stack development using Python and Django. My journey into these fields began with an interest in how data can drive decision-making and create impactful applications. I am eager to bridge the gap between academic knowledge and real-world applications, striving to make a positive impact through innovative solutions.</p>
+                    <p>Looking ahead, I am excited about opportunities to work on projects that combine my interests in data science and full-stack development. I aspire to join a dynamic team where I can contribute my skills and continue to grow as a technology professional.</p>
+
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/facebook.png' %}" alt="Facebook"></li>
+                        <li><img class="social" src="{% static 'images/linkdin.png' %}" alt="LinkedIn"></li>
+                        <li><img class="social" src="{% static 'images/instagram.png' %}" alt="Instagram"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Second row -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100 border border-info">
+                    <h4 id="intro">My Experience as a Data Science Learner</h4>
+                    <hr>
+                    <p>As a data science learner, I explored online courses in statistics, Python, and machine learning, engaging in hands-on projects using tools like Pandas and scikit-learn. Participating in Kaggle competitions sharpened my skills and provided practical experience. I faced challenges with complex algorithms but overcame them through community support and additional resources. This journey has enhanced my critical thinking and analytical skills, and I'm excited to apply my knowledge in future data science projects.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100 border border-info">
+                    <h4 id="intro">My Knowledge and Skills</h4>
+                    <hr>
+                    <p>As a beginner in data science, I have learned to analyze and manipulate data using Python libraries like Pandas and NumPy. I'm exploring data visualization techniques with Matplotlib and Seaborn and getting familiar with basic machine learning concepts. In web development, I’m starting to work with Django, understanding its structure and components like models, views, and templates. I’ve begun building simple applications, integrating data with user interfaces. I’m excited to combine my data science skills with Django to create data-driven web applications.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Third row -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100 border border-info">
+                    <h4 id="intro">Currently Working Projects</h4>
+                    <hr>
+                    <p>In this project, we'll demonstrate how to build a web scraping application using Python to extract data from YouTube using Beautiful Soup.</p>
+                    <p>In this project, we'll design an engaging intro card using Django, showcasing essential information and visuals in a user-friendly layout.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100 border border-info">
+                    <h4 id="intro">My Short-Term Goals</h4>
+                    <hr>
+                    <p>My short-term goals as a data scientist and web developer using Django are to enhance my skills in machine learning and data visualization while building dynamic web applications. I aim to complete a few projects that integrate data analysis with user-friendly interfaces to solidify my understanding and practical experience.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>

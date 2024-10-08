@@ -1,0 +1,47 @@
+body {
+ background-color:rgb(175, 197, 197) !important;
+}
+ 
+#profile-wrapper{
+    text-align: center;
+}
+
+#profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+#h4{
+    font-family:verdana;
+}
+
+#intro {
+    text-align: center;
+    padding: 0;
+    color: #f00101;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none ;
+    padding: 0;
+}
+
+.social-links ul , li{
+    list-style-type: none ;
+    display: inline-block;
+}
+.social{
+    width: 30px;
+height: 30px;
+}
+
+.social-links img {
+    text-decoration: none; /* Remove underline for social links */
+}
+#profile-wrapper, .card-body {
+    text-decoration: none; /* Ensure no underlines in card content */
+}
